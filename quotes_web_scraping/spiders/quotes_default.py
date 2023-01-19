@@ -1,8 +1,8 @@
 import scrapy
 
 
-class QuotescrawlerSpider(scrapy.Spider):
-    name = 'quotescrawler'
+class QuotesDefaultSpider(scrapy.Spider):
+    name = 'quotes_default'
     allowed_domains = ['quotes.toscrape.com']
     start_urls = ['http://quotes.toscrape.com/']
 
